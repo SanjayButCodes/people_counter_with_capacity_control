@@ -66,7 +66,7 @@ The LCD, IR sensors, relay and servo are powered from 5V and share a common GND 
 1. Install the [Arduino IDE](https://www.arduino.cc/en/software).
 2. Install the library **LiquidCrystal I2C** by Frank de Brabander (Sketch → Include Library → Manage Libraries). The `Servo` and `Wire` libraries come with the IDE.
 3. Wire the circuit using the pin table above.
-4. Open `people_counter.ino`, select **Arduino Uno** and the correct port, and click **Upload**.
+4. Open the Arduino sketch (the `.ino` file in this repository) in the Arduino IDE, select **Arduino Uno** and the correct port, and click **Upload**.
 5. Open the Serial Monitor at 9600 baud to see start-up messages (for example if the LCD is not found).
 
 ### Settings you may need to change in the code
@@ -79,9 +79,10 @@ The LCD, IR sensors, relay and servo are powered from 5V and share a common GND 
 
 ## Repository contents
 
-- `people_counter.ino`: Arduino code
+- `PeopleCounterWithCapacityControl.cpp`: main code (C++)
+- `people_counter_with_capacity_control_copy...ino`: the same code as an Arduino sketch, ready to open in the Arduino IDE
 - `prototype.jpg`: photo of the working prototype
-- Project report (PDF)
+- `README.md`: this file
 
 ## Team
 
@@ -92,3 +93,11 @@ The LCD, IR sensors, relay and servo are powered from 5V and share a common GND 
 | DIVYANSHI | 2026AIB1032 |
 | GAJJELA SRI CHARAN | 2026AIB1033 |
 | GANDRAJUPALLI JATHIN BHARADWAJ | 2026AIB1034 |
+
+## Who did what
+
+| Work | Done by |
+|---|---|
+| Sourced and ordered the materials, made the report | Divyanshi, Sanjay Deep |
+| Made the circuit and wrote the code | Jathin Bharadwaj, Sanjay Deep |
+| Made the model, rewired the circuit and decorated it | Sri Charan, Satyam |
